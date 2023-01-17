@@ -29,6 +29,8 @@ app.use((req, res, next) => {
     next();
 });
 
+console.log("test de jen")
+
 //app.user(bodyParser.json())
 app.use('/api/thing', stuffRoutes)
 app.use('/api/auth', userRoutes)
